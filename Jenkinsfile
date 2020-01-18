@@ -10,7 +10,8 @@ pipeline {
             steps {
                 sh 'mkdir /tmp/ready'
                 sh 'ls -hal /tmp'
-                sh "cat /tmp/ready"
+                echo "test" > test
+                sh "cat /tmp/ready/test"
             }
         }
     }
