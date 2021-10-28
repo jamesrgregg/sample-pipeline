@@ -1,2 +1,2 @@
-FROM python:3.9-alpine
+FROM alpine:latest
 COPY entry.sh /opt/bin/
